@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbackground"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#6056B3"
+        android:fontFamily="@font/lettersforlearners"
+        android:onClick="clickim"
+        android:text="@string/calc"
+        android:textAllCaps="false"
+        android:textSize="@dimen/btn"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.882" />
+
+    <ImageView
+        android:id="@+id/primeraec"
+        android:layout_width="363dp"
+        android:layout_height="240dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.391"
+        app:srcCompat="@drawable/primec" />
+
+    <EditText
+        android:id="@+id/etVmax"
+        android:layout_width="304dp"
+        android:layout_height="48dp"
+        android:autofillHints="no"
+        android:ems="10"
+        android:fontFamily="@font/lettersforlearners"
+        android:hint="@string/h_vmax"
+        android:inputType="numberDecimal"
+        android:maxLength="5"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textColor="#323232"
+        android:textColorHint="#505050"
+        android:textSize="@dimen/hint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.639" />
+
+    <EditText
+        android:id="@+id/etVmin"
+        android:layout_width="304dp"
+        android:layout_height="48dp"
+        android:autofillHints="no"
+        android:ems="10"
+        android:fontFamily="@font/lettersforlearners"
+        android:hint="@string/h_vmin"
+        android:inputType="numberDecimal"
+        android:maxLength="5"
+        android:textAlignment="center"
+        android:textColor="#323232"
+        android:textColorHint="#505050"
+        android:textSize="@dimen/hint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.736" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="291dp"
+        android:layout_height="53dp"
+        android:fontFamily="@font/lettersforlearners"
+        android:text="@string/ind_mod"
+        android:textAlignment="center"
+        android:textColor="#00897B"
+        android:textSize="@dimen/titlename"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.226" />
+
+    <Spinner
+        android:id="@+id/spn"
+        android:layout_width="305dp"
+        android:layout_height="51dp"
+        android:contentDescription="@string/selec"
+        android:isScrollContainer="false"
+        android:keepScreenOn="false"
+        android:minHeight="48dp"
+        android:popupBackground="@drawable/paperm"
+        android:popupElevation="16dp"
+        android:scrollbarSize="4dp"
+        android:spinnerMode="dropdown"
+        android:textAlignment="center"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.641"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.127" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lettersforlearners"
+        android:text="@string/selec"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/opc"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.094" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

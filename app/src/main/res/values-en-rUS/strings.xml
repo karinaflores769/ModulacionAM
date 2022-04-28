@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Amplitude Modulation</string>
+    <string name="autor">Karina Alejandra Flores Cruz</string>
+    <string name="version">Version 1.0</string>
+    <string name="title">Amplitude Modulation</string>
+    <string name="ind_mod">Modulation Index</string>
+    <string name="h_vmax">Maximum voltage [V]</string>
+    <string name="h_vmin">Minimum voltage [V]</string>
+    <string name="h_pc">Carrier power [W]</string>
+    <string name="h_indmod">Modulation index [1]</string>
+    <string name="h_vc">Carrier voltage [V]</string>
+    <string name="calc">Calculate</string>
+    <string name="ingrese_val">ENTER VALUES</string>
+    <string name="req_val">A value is required</string>
+    <string name="err_maxmin">The maximum voltage must be greater than the minimum</string>
+    <string name="err_cero">ENTER VALID VALUES</string>
+    <string name="index_data">Entered Data:</string>
+    <string name="index_result">Result:</string>
+    <string name="res_vmax">Maximum voltage: %.1f [V]</string>
+    <string name="res_vmin">Minimum voltage: %.1f [V]</string>
+    <string name="res_index">m = %.2f [1]</string>
+    <string name="res_res">The modulation index is:</string>
+    <string name="pot_am">AM Signal Power</string>
+    <string name="volt_c">Carrier Voltage</string>
+    <string-array name="Opc">
+        <item>Modulation Index</item>
+        <item>AM Signal Power</item>
+        <item>Carrier Voltage</item>
+    </string-array>
+    <string-array name="Opc2">
+        <item>AM Signal Power</item>
+        <item>Modulation Index</item>
+        <item>Carrier Voltage</item>
+    </string-array>
+    <string-array name="Opc3">
+        <item>Carrier Voltage</item>
+        <item>Modulation Index</item>
+        <item>AM Signal Power</item>
+    </string-array>
+    <string name="selec">Select a Formula</string>
+    <string name="res_res_pot">The AM power is:</string>
+    <string name="res_ind">Modulation Index: %.1f [1]</string>
+    <string name="res_potc">Carrier power: %.1f [W]</string>
+    <string name="res_potam">Pam = %.2f [W]</string>
+    <string name="h_Vbl">Sideband voltage [V]</string>
+    <string name="err_difcero">Enter a non-zero value</string>
+    <string name="res_text_volt">The carrier voltage is:</string>
+    <string name="res_vbl">Sideband voltage: %.1f [V]</string>
+    <string name="res_voltc">Vc = %.2f [V]</string>
+</resources>

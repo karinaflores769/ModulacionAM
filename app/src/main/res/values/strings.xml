@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Modulación AM</string>
+    <string name="autor">Karina Alejandra Flores Cruz</string>
+    <string name="version">Versión 1.0</string>
+    <string name="title">Modulación en Amplitud</string>
+    <string name="ind_mod">Índice de Modulación</string>
+    <string name="h_vmax">Voltaje máximo [V]</string>
+    <string name="h_vmin">Voltaje mínimo [V]</string>
+    <string name="h_pc">Potencia de portadora [W]</string>
+    <string name="h_indmod">Índice de modulación [1]</string>
+    <string name="h_vc">Voltaje de la portadora [V]</string>
+    <string name="calc">Calcular</string>
+    <string name="ingrese_val">INGRESE VALORES</string>
+    <string name="req_val">Se requiere un valor</string>
+    <string name="err_maxmin">El voltaje máximo debe ser mayor al mínimo</string>
+    <string name="err_cero">INGRESE VALORES VÁLIDOS</string>
+    <string name="index_data">Datos Ingresados:</string>
+    <string name="index_result">Resultado:</string>
+    <string name="res_vmax">Voltaje máximo: %.1f [V]</string>
+    <string name="res_vmin">Voltaje mínimo: %.1f [V]</string>
+    <string name="res_index">m = %.2f [1]</string>
+    <string name="res_res">El índice de modulación es:</string>
+    <string name="pot_am">Potencia de AM</string>
+    <string name="volt_c">Voltaje de la Portadora</string>
+    <string-array name="Opc">
+        <item>Índice de Modulación</item>
+        <item>Potencia de AM</item>
+        <item>Voltaje de la Portadora</item>
+    </string-array>
+    <string-array name="Opc2">
+        <item>Potencia de AM</item>
+        <item>Índice de Modulación</item>
+        <item>Voltaje de la Portadora</item>
+    </string-array>
+    <string-array name="Opc3">
+        <item>Voltaje de la Portadora</item>
+        <item>Índice de Modulación</item>
+        <item>Potencia de AM</item>
+    </string-array>
+    <string name="selec">Selecciona una Fórmula</string>
+    <string name="res_res_pot">La potencia de AM es:</string>
+    <string name="res_ind">Índice de modulación: %.1f [1]</string>
+    <string name="res_potc">Potencia de la portadora: %.1f [W]</string>
+    <string name="res_potam">Pam = %.2f [W]</string>
+    <string name="h_Vbl">Voltaje bandas laterales [V]</string>
+    <string name="err_difcero">Ingrese un valor diferente de cero</string>
+    <string name="res_text_volt">El voltaje de la portadora es:</string>
+    <string name="res_vbl">Voltaje de banda lateral: %.1f [V]</string>
+    <string name="res_voltc">Vc = %.2f [V]</string>
+
+</resources>

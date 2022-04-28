@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titlename">40sp</dimen>
+    <dimen name="hint">32sp</dimen>
+    <dimen name="btn">30sp</dimen>
+    <dimen name="splashname">60sp</dimen>
+    <dimen name="autr">40sp</dimen>
+    <dimen name="titledata">30sp</dimen>
+    <dimen name="textdata">28sp</dimen>
+    <dimen name="resultdata">55sp</dimen>
+    <dimen name="opc">28sp</dimen>
+
+
+
+</resources>
